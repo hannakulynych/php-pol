@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  #614219;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.recipe img {
+    float: left;
+    margin-right: 10px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    margin-top: 0;
+}
+
+.recipe p {
+    margin-bottom: 5px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters select {
+    padding: 5px;
+}
